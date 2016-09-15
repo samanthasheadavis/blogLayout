@@ -1,8 +1,78 @@
-#hero {
+body {
+  margin: 0;
+}
+
+.hero {
   background-image: url('https://www.theironyard.com/content/dam/theironyard/locations/houston/header_houston.jpg');
   background-size: contain;
   height: 300px;
-  margin: 0;
-  border-radius: 5px;
   clip: bottom;
+}
+
+/*Setting up the logo and getting it in the right position*/
+.logo {
+  z-index: 2;
+  width: 10%;
+  margin: 230px 200px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: white;
+}
+
+/*Positioning the article and aside within a container div*/
+#container {
+  overflow: hidden;
+  width: 700px;
+  margin: 35px 200px;
+}
+
+#container.article, #container aside {
+  float: left;
+  padding: 25px;
+  width: 200px;
+}
+
+/*image styles*/
+#articleImage {
+  width: 400px;
+}
+
+/*article styles*/
+#article h1 {
+  color: #30373d;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.166667;
+  font-size: 27px;
+}
+
+#article p {
+  font-style: italic;
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+}
+
+#article a {
+  text-decoration: none;
+}
+
+/*aside styles*/
+span {
+  color: #30373d;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #BFC5C7;
+}
+
+aside p {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  color: #BFC5C7;
+}
+
+/*form styles*/
+label {
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #BFC5C7;
 }
