@@ -1,0 +1,8 @@
+#hero {
+  background-image: url('https://www.theironyard.com/content/dam/theironyard/locations/houston/header_houston.jpg');
+  background-size: contain;
+  height: 300px;
+  margin: 0;
+  border-radius: 5px;
+  clip: bottom;
+}
