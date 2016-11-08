@@ -5,6 +5,7 @@
 
 For this homework we were given an image of a blog post to build using HTML and CSS.
 
+[Github pages link](https://samanthasheadavis.github.io/blogLayout/)
 ### Languages/Tools
 * HTML5
 * CSS3
